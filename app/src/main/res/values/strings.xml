@@ -15,19 +15,20 @@
         <item name="the_anti_gravity_sphere">The Anti Gravity Sphere</item>
     </string-array>
 
-
-    <string name="rusted_can_of_cheerwine">Has seen some shit, but seems to be radiating with vital energies. Grants +5 max HP. (400 GP)</string>
-    <string name="virtuosos_mask"> Allows you to cast Disguise Self as a Cantrip instead of a 1st Level Spell. (1100 GP)</string>
-    <string name="throwing_shield">Confers the same AC bonus as a regular shield, and can be used as a thrown weapon. Can travel IN A STRAIGHT LINE up to 30 feet, and deals 1d8 + STR/Prof. Damage. IT DOESN\’T COME BACK TO YOU AFTERWARDS. AND DON\’T TRY TO RICOCHET THIS SHIT. (1200 GP)</string>
-    <string name="alchemists_ring">When the wearer of this ring imbibes a healing potion, they receive 1d6 additional healing.(500gp)</string>
-    <string name="healing_potion">When the wearer of this ring imbibes a healing potion, they receive 1d6 additional healing.(500gp)</string>
-    <string name="haunted_doll">This doll is very creepy. If its owner ever fails a third death save, the doll will take the hit instead, and will die in place of its owner.(100gp)</string>
-    <string name="shield_of_heroic_memories">This perfectly round silver shield initially has a mirror finish. As a hero takes it into battle it remembers the enemies encountered, gaining a +1 to AC on any subsequent battle with creatures of that type. The events of the battle are intricately engraved onto the shield’s surface (which has a seemingly endless capacity for detail).
+    <string-array name="item_details">
+    <item name="rusted_can_of_cheerwine">Has seen some shit, but seems to be radiating with vital energies. Grants +5 max HP. (400 GP)</item>
+    <item name="virtuosos_mask"> Allows you to cast Disguise Self as a Cantrip instead of a 1st Level Spell. (1100 GP)</item>
+    <item name="throwing_shield">Confers the same AC bonus as a regular shield, and can be used as a thrown weapon. Can travel IN A STRAIGHT LINE up to 30 feet, and deals 1d8 + STR/Prof. Damage. IT DOESN\’T COME BACK TO YOU AFTERWARDS. AND DON\’T TRY TO RICOCHET THIS SHIT. (1200 GP)</item>
+    <item name="alchemists_ring">When the wearer of this ring imbibes a healing potion, they receive 1d6 additional healing.(500gp)</item>
+    <item name="healing_potion">When the wearer of this ring imbibes a healing potion, they receive 1d6 additional healing.(500gp)</item>
+    <item name="haunted_doll">This doll is very creepy. If its owner ever fails a third death save, the doll will take the hit instead, and will die in place of its owner.(100gp)</item>
+    <item name="shield_of_heroic_memories">This perfectly round silver shield initially has a mirror finish. As a hero takes it into battle it remembers the enemies encountered, gaining a +1 to AC on any subsequent battle with creatures of that type. The events of the battle are intricately engraved onto the shield’s surface (which has a seemingly endless capacity for detail).
 
         The bearer of the shield may also attempt to recount past battles (real or imagined) to the shield. Upon a DC 10 charisma check or DC 15 bluff check, the shield confers a +1 AC against the creatures described in the tall tales.
 
-        3 failed attempts at recounting stories cause the shield to be cleared of all of its memories. The engravings disappear. It reverts to its mirror finish. All bonuses are lost. (1200gp)</string>
-    <string name="the_anti_gravity_sphere">a small fist-sized glass ball filled with a silvery smoke. When the sphere is destroyed, it disables the effect of gravity on everything in a 30ft radius.</string>
+        3 failed attempts at recounting stories cause the shield to be cleared of all of its memories. The engravings disappear. It reverts to its mirror finish. All bonuses are lost. (1200gp)</item>
+    <item name="the_anti_gravity_sphere">a small fist-sized glass ball filled with a silvery smoke. When the sphere is destroyed, it disables the effect of gravity on everything in a 30ft radius.</item>
+    </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

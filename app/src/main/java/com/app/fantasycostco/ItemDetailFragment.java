@@ -27,9 +27,7 @@ public class ItemDetailFragment extends DialogFragment {
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 
-
         String itemName = getArguments().getString("itemName");
-
 
         builder.setMessage(itemName)
             .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
