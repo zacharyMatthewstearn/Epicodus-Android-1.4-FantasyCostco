@@ -2,4 +2,18 @@
     <string name="app_name">FantasyCostco</string>
     <string name="button_label_start">Shop!</string>
     <string name="description_background">Erroneous, non-Fantasy-Costco TAZ scene</string>
+
+
+
+    <string-array name="item_names">
+        <item name="rusted_can_of_cheerwine">Rusted Can of Cheerwine</item>
+        <item name="virtuosos_mask">Virtuoso\'s Mask</item>
+        <item name="throwing_shield">Throwing Shield</item>
+    </string-array>
+
+
+    <string name="rusted_can_of_cheerwine">Has seen some shit, but seems to be radiating with vital energies. Grants +5 max HP. (400 GP)</string>
+    <string name="virtuosos_mask"> Allows you to cast Disguise Self as a Cantrip instead of a 1st Level Spell. (1100 GP)</string>
+    <string name="throwing_shield">Confers the same AC bonus as a regular shield, and can be used as a thrown weapon. Can travel IN A STRAIGHT LINE up to 30 feet, and deals 1d8 + STR/Prof. Damage. IT DOESN\’T COME BACK TO YOU AFTERWARDS. AND DON\’T TRY TO RICOCHET THIS SHIT. (1200 GP)</string>
+
 </resources>
