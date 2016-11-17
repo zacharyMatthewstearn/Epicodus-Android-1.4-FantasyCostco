@@ -4,7 +4,6 @@
     <string name="description_background">Erroneous, non-Fantasy-Costco TAZ scene</string>
 
 
-
     <string-array name="item_names">
         <item name="rusted_can_of_cheerwine">Rusted Can of Cheerwine</item>
         <item name="virtuosos_mask">Virtuoso\'s Mask</item>
@@ -29,5 +28,9 @@
 
         3 failed attempts at recounting stories cause the shield to be cleared of all of its memories. The engravings disappear. It reverts to its mirror finish. All bonuses are lost. (1200gp)</string>
     <string name="the_anti_gravity_sphere">a small fist-sized glass ball filled with a silvery smoke. When the sphere is destroyed, it disables the effect of gravity on everything in a 30ft radius.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ok">Ok</string>
 
 </resources>
