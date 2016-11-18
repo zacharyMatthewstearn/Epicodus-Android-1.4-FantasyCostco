@@ -12,6 +12,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.util.Arrays;
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -29,7 +31,13 @@ public class ItemDetailFragment extends DialogFragment {
 
         String itemName = getArguments().getString("itemName");
 
-        builder.setMessage(itemName)
+        int itemIndex = Arrays.asList(getResources().getStringArray(R.array.item_names)).indexOf(itemName);
+        String[] itemDescriptions = getResources().getStringArray(R.array.item_details);
+        String itemDetail = itemDescriptions[itemIndex];
+
+        builder.setMessage(itemDetail)
+                .setTitle(itemName)
+                .setView(R.layout.item_detail)
             .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
 
